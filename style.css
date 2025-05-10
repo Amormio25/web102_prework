@@ -21,6 +21,29 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* box-shadow: 0 0 30px lightblue; */
+}
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
+}
+
+#unfunded-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px lightblue;
+    opacity: 90%;
+}
+#funded-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px lightblue;
+    opacity: 90%;
+}
+#all-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px lightblue;
+    opacity: 90%;
 }
 
 .stats-card {
