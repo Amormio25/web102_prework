@@ -155,7 +155,7 @@ let numUnfunded = GAMES_JSON.reduce((acc, game) => {
 
 // create a string that explains the number of unfunded games using the ternary operator
 // const totalGames = GAMES_JSON.length;
-let displayStr = `A total of $${totalPledged} has been raised for ${totalGames} games. Currently, ${numUnfunded} game${numUnfunded == 1 ? " is" : "s are"} unfunded. We need your help for funding!`;
+let displayStr = `A total of $${totalPledged.toLocaleString()} has been raised for ${totalGames} games. Currently, ${numUnfunded} game${numUnfunded == 1 ? " is" : "s are"} unfunded. We need your help for funding!`;
 
 // create a new DOM element containing the template string and append it to the description container
 const descElem = document.createElement("div");

@@ -14,9 +14,14 @@ body {
     background-color: lightblue;
     padding: 1%;
     align-items: center;
+    justify-content: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+}
+
+h2,p {
+    text-align: center;
 }
 
 .stats-container {
@@ -86,6 +91,10 @@ body {
 }
 
 #button-container {
+    text-align: center;
+}
+
+#description-container {
     text-align: center;
 }
 
